@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp" >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="0dp"
+
+        card_view:cardCornerRadius="4dp"
+        card_view:elevation="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/book"
+                    android:scaleType="fitCenter"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/archiveName"
+                        android:textAlignment="textStart"
+                        android:gravity="start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"
+                        android:text="Archive Name"
+                        style="@android:style/TextAppearance.Medium">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/archiveAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/archiveName"
+                        android:text="Archive Author"
+                        android:layout_marginBottom="5dp"
+                        style="@android:style/TextAppearance.Small">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/archiveDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/archiveAuthor"
+                        android:textAllCaps="true"
+                        android:text="Archive Date"
+                        android:layout_marginBottom="5dp"
+                        style="@android:style/TextAppearance.Small">
+                    </TextView>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
+

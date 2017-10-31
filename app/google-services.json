@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "802608929501",
+    "firebase_url": "https://fir-stackboard.firebaseio.com",
+    "project_id": "firebase-stackboard",
+    "storage_bucket": "firebase-stackboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802608929501:android:132e9193e04e9392",
+        "android_client_info": {
+          "package_name": "com.example.dilina.stackboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802608929501-p0bt2rup6g1va5g50j50dvjlka174fih.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "802608929501-274pcbh21mtt2md8v743nksgahind5d2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "802608929501-g0rekdtdpf2oef364jottd685bmjav8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dilina.stackboard",
+            "certificate_hash": "5af372d2e2dff98f6697fca3b5ce46796817c175"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8Hkuv-sEHXTxPEHOxZflp21-t7w3Iz4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802608929501-p0bt2rup6g1va5g50j50dvjlka174fih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
